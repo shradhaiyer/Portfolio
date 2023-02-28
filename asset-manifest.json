@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Shraddha-Iyer/static/css/main.30ab9a22.css",
+    "main.js": "/Shraddha-Iyer/static/js/main.dc06933a.js",
+    "static/js/415.4d6acbeb.chunk.js": "/Shraddha-Iyer/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Shraddha-Iyer/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leaf.png": "/Shraddha-Iyer/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/Shraddha-Iyer/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/Shraddha-Iyer/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "/Shraddha-Iyer/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/Shraddha-Iyer/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/img.jpg": "/Shraddha-Iyer/static/media/img.a77c5bc50e2a76811faa.jpg",
+    "static/media/xoriant.png": "/Shraddha-Iyer/static/media/xoriant.22757773739a45a240d5.png",
+    "static/media/chatify.png": "/Shraddha-Iyer/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/Resume_ShraddhaIyer.pdf": "/Shraddha-Iyer/static/media/Resume_ShraddhaIyer.0b3a148bcc429b75aee9.pdf",
+    "static/media/home-bg.jpg": "/Shraddha-Iyer/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/mu.webp": "/Shraddha-Iyer/static/media/mu.d014fff59c4997426217.webp",
+    "static/media/amazon.png": "/Shraddha-Iyer/static/media/amazon.ed942dc0a04079d7eb3a.png",
+    "static/media/avatar1.svg": "/Shraddha-Iyer/static/media/avatar1.2d9afca7c0d352927b2827fe9ecc888d.svg",
+    "static/media/nyu.jpeg": "/Shraddha-Iyer/static/media/nyu.c85808b51dba8928f690.jpeg",
+    "static/media/avatar.svg": "/Shraddha-Iyer/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/Shraddha-Iyer/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/Shraddha-Iyer/index.html",
+    "main.30ab9a22.css.map": "/Shraddha-Iyer/static/css/main.30ab9a22.css.map",
+    "main.dc06933a.js.map": "/Shraddha-Iyer/static/js/main.dc06933a.js.map",
+    "415.4d6acbeb.chunk.js.map": "/Shraddha-Iyer/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Shraddha-Iyer/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30ab9a22.css",
+    "static/js/main.dc06933a.js"
+  ]
+}
