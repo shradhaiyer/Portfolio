@@ -441,6 +441,24 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+/* Education */
+
+.education-card-view {
+  height: auto !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 5px !important;
+  border: 3px solid rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.education-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+}
 /* --------- */
 /* Projects */
 /* --------- */
@@ -448,7 +466,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
 }
 
 .project-card {
@@ -546,8 +564,7 @@ button:focus {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
 }
 
 .tech-icons {
@@ -593,11 +610,6 @@ button:focus {
   padding-left: 1px !important;
 }
 
-@media (max-width: 767px) {
-  .about-img {
-    padding-top: 0 !important;
-  }
-}
 /* --------- */
 /* Resume */
 /* --------- */
@@ -606,7 +618,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   color: white !important;
 }
 

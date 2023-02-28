@@ -1,13 +1,15 @@
-import React from "react";
+import React , { useRef} from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/avatar1.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-
+import Navbar from '../Navbar';
 function Home() {
   return (
     <section>
+        <Navbar />
+
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -22,7 +24,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> SHRADDHA IYER </strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

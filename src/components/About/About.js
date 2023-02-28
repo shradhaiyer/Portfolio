@@ -1,15 +1,20 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import shraddhaImg from "../../Assets/img.jpg";
 import Toolstack from "./Toolstack";
+import { Element } from "react-scroll";
+import Image from 'react-bootstrap/Image'
+import EducationCard from "../Education/EducationCard";
+import ExperienceCard from "../Experience/ExperienceCard";
+import { Avatar } from "@mui/material";
 
 function About() {
   return (
-    <Container fluid className="about-section">
+    <Element id="about_id">
+        <Container fluid className="about-section">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -21,19 +26,31 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            <h1 style={{ color:"white", fontSize: "2.1em", paddingBottom: "20px" }}>
+              Know who <strong className="purple">I am</strong>
             </h1>
             <Aboutcard />
+       
           </Col>
+          
           <Col
+            xs={12}
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "50px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <Avatar src={shraddhaImg}  sx={{ width: "80%", height: "80%" }}/>
           </Col>
         </Row>
+        <h1 className="education">
+           <strong className="purple">Education </strong>
+        </h1>
+        <EducationCard />
+
+        <h1 className="education">
+           <strong className="purple">Experience </strong>
+        </h1>
+        <ExperienceCard />
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
@@ -44,11 +61,11 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Github />
       </Container>
     </Container>
-  );
+
+    </Element>
+      );
 }
 
 export default About;

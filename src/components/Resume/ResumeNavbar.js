@@ -59,29 +59,10 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}  >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link to="about_id" onClick={() => handleScrollClick('about_id') }>
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                onClick={() => handleScrollClick('project_id')}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -91,8 +72,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-
             <Nav.Item className="fork-btn">
               <Button
                 href="https://www.linkedin.com/in/shraddha-iyer/"
