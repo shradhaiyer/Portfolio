@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import { Col, Row } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import nyuimg from '../../Assets/nyu.jpeg';
@@ -16,7 +15,7 @@ export default function OppositeContentTimeline() {
     return (
         <Timeline position="alternate">
             <TimelineItem>
-                <TimelineOppositeContent color="white" style={{fontWeight: 'bold'}}>
+                <TimelineOppositeContent color="white" style={{ fontWeight: 'bold' }}>
                     2021-2023
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -24,16 +23,19 @@ export default function OppositeContentTimeline() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card className="education-card-view" >
+                    <Card className="education-card-view">
                         <Row>
-                            <Col>
-                                <Card.Img src={nyuimg} />
+                            <Col >
+                                <Card.Img className="nyu-card-img" src={nyuimg} />
                             </Col>
-                            <Col>
+                            <Col md= {8}>
                                 <Card.Body>
-                                    <Card.Title style={{fontWeight: 'bold'}}>MS - Computer Science</Card.Title>
+                                    <Card.Title style={{ fontWeight: 'bold' }}>MS - Computer Science</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
+                                    <ul>
+                                            <li>GPA - 3.8/4.0</li>
+                                            <li>Expected Graduation - May 2023</li>
+                                        </ul>    
                                     </Card.Text>
                                 </Card.Body>
                             </Col>
@@ -42,7 +44,7 @@ export default function OppositeContentTimeline() {
                 </TimelineContent>
             </TimelineItem>
             <TimelineItem>
-                <TimelineOppositeContent color="white" style={{fontWeight: 'bold'}}>
+                <TimelineOppositeContent color="white" style={{ fontWeight: 'bold' }}>
                     2016-2020
                 </TimelineOppositeContent>
                 <TimelineSeparator>
@@ -53,13 +55,16 @@ export default function OppositeContentTimeline() {
                     <Card className="education-card-view" >
                         <Row>
                             <Col>
-                                <Card.Img src={muimg} />
+                                <Card.Img src={muimg} className="mu-card-img"/>
                             </Col>
-                            <Col>
+                            <Col md={8}>
                                 <Card.Body>
-                                    <Card.Title style={{fontWeight: 'bold'}} >BE - Computer Engineering</Card.Title>
+                                    <Card.Title style={{ fontWeight: 'bold' }} >BE - Computer Engineering</Card.Title>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
+                                        <ul>
+                                        <li><span>CGPA - 8.74/10.0</span></li>
+                                        <li>Activities - National Service Scheme</li>
+                                        </ul>                        
                                     </Card.Text>
                                 </Card.Body>
                             </Col>

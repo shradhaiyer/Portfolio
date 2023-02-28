@@ -1,7 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 import Card from 'react-bootstrap/Card';
 import xoriant from '../../Assets/xoriant.png';
-import amazon from '../../Assets/amazon.jpeg';
+import amazon from '../../Assets/amazon.png';
 import tacto from '../../Assets/tacto.png';
 import * as React from 'react';
 import Timeline from '@mui/lab/Timeline';
@@ -24,18 +24,18 @@ export default function OppositeContentTimeline() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card className="education-card-view" >
+                    <Card className="exp-card-view" >
                         <Row>
                             <Col>
-                                <Card.Img src={amazon} />
+                                <Card.Img src={amazon} className="exp-card-img"/>
                             </Col>
-                            <Col>
+                            <Col md={8}>
                                 <Card.Body>
                                     <Card.Title style={{fontWeight: 'bold'}}>SDE Intern</Card.Title>
-                                    <br></br>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
-                                    </Card.Text>
+                                    <ul>
+                                        <li>Skills - Java, ReactJs, Glue, Cloud Formation, Step Function, Lambda Functions, S3, DynamoDB</li>
+                                        </ul>                                    </Card.Text>
                                 </Card.Body>
                             </Col>
                         </Row>
@@ -49,17 +49,18 @@ export default function OppositeContentTimeline() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card className="education-card-view" >
+                    <Card className="exp-card-view" >
                         <Row>
                             <Col>
-                                <Card.Img src={xoriant} />
+                                <Card.Img src={xoriant} className="exp-card-img"/>
                             </Col>
-                            <Col>
+                            <Col md={8}>
                                 <Card.Body>
                                     <Card.Title style={{fontWeight: 'bold'}} >Associate Software Engineer</Card.Title>
-                                    <br></br>
                                     <Card.Text>
-                                        Some quick example text to build on the card title and make up the
+                                       <ul>
+                                        <li>Skills - Java, C#, AngularJs, Spring Boot, Git, SQL</li>
+                                        </ul>
                                     </Card.Text>
                                 </Card.Body>
                             </Col>
@@ -75,16 +76,19 @@ export default function OppositeContentTimeline() {
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card className="education-card-view" >
+                    <Card className="exp-card-view" >
                         <Row>
                             <Col>
-                                <Card.Img src={tacto} />
+                                <Card.Img src={tacto} className="exp-card-img"/>
                             </Col>
-                            <Col>
+                            <Col md={8}>
                                 <Card.Body>
                                     <Card.Title style={{fontWeight: 'bold'}} >Junior Software Engineer</Card.Title>
-                                    <br></br>
-                                  
+                                    <ul>
+                                        <li>Skills - Python, ReactJS, Docker, Git, MongoDB
+                                    </li>
+                                        </ul>
+                                    
                                 </Card.Body>
                             </Col>
                         </Row>

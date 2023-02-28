@@ -441,8 +441,44 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+/*Experience */
+.exp-card-view {
+  height: auto !important;
+  border: 3px solid rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+}
+.exp-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+}
+.exp-card-img {
+  padding-top: 5px !important;
+  padding-bottom: 10px !important;
+  padding-left: 5px !important;
+  max-width: 70%;
+  height:100%;
+  float: left;
+  left: auto;
+}
 /* Education */
-
+.nyu-card-img {
+  max-width: 60%;
+  height:100%;
+  object-fit: cover;
+}
+.mu-card-img {
+  padding-top: 1px !important;
+  max-width: 70%;
+  float: left;
+  height:100%;
+  object-fit: cover;
+}
+.bullet-css{
+  list-style-type: none;
+}
 .education-card-view {
   height: auto !important;
   padding-top: 5px !important;
@@ -453,12 +489,13 @@ button:focus {
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
 }
+
 .education-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
