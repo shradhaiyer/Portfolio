@@ -8,10 +8,14 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shraddha Iyer, </span>
-            <br />A CS Grad at NYU Courant Institute of Mathematical Sciences
-            <br />
-            <br />
+            Hello! I am <span className="purple">Shraddha Iyer, </span>
+            a Software Developer based out of New York City, NY. 
+         
+            I am curently attending<span className="purple"> New York University</span>  as a Computer Science Grad student.  
+            <br/>
+            I am passionate about building highly scalable and performant applications that solve real world problems.
+            Over the last few years, I have built strong <span className="purple">analytical skills</span> and a passion for <span className="purple">problem-solving.</span>
+            <br/>
             </p>
         </blockquote>
       </Card.Body>

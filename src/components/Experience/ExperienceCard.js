@@ -31,7 +31,7 @@ export default function OppositeContentTimeline() {
                             </Col>
                             <Col md={8}>
                                 <Card.Body>
-                                    <Card.Title style={{fontWeight: 'bold'}}>SDE Intern</Card.Title>
+                                    <Card.Title style={{fontWeight: 'bold'}}>Software Engineer Intern</Card.Title>
                                     <Card.Text>
                                     <ul>
                                         <li>Skills - Java, ReactJs, Glue, Cloud Formation, Step Function, Lambda Functions, S3, DynamoDB</li>

@@ -71,7 +71,7 @@ function Home2() {
             <h1>FIND ME ON</h1>
             <p>
               Feel free to drop me a mail at <span className="purple">shraddha.iyer98@gmai.com</span> or
-              <span className="purple"> sti5262@nyu.edu</span>
+              <span className="purple">sti5262@nyu.edu</span>
               <br></br> You can also contact me via the social media handles mentioned below!
             </p>
             <ul className="home-about-social-links">
