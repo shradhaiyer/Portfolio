@@ -17,7 +17,18 @@ function About() {
         <Container fluid className="about-section">
       <Particle />
       <Container>
+      <h1 style={{ color:"white", fontSize: "2.1em", paddingBottom: "20px" }}>
+              Know who <strong className="purple">I am</strong>
+            </h1>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Col
+            xs={12}
+            md={5}
+            style={{ paddingTop: "50px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <Avatar src={shraddhaImg}  sx={{ width: "80%", height: "80%" }}/>
+          </Col>
           <Col
             md={7}
             style={{
@@ -26,21 +37,12 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ color:"white", fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know who <strong className="purple">I am</strong>
-            </h1>
+           
             <Aboutcard />
        
           </Col>
           
-          <Col
-            xs={12}
-            md={5}
-            style={{ paddingTop: "50px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <Avatar src={shraddhaImg}  sx={{ width: "80%", height: "80%" }}/>
-          </Col>
+         
         </Row>
         <h1 className="education">
            <strong className="purple">Education </strong>
