@@ -13,7 +13,7 @@ function Projects() {
   return (
     <Element id="project_id">
       <Container fluid className="project-section">
-      <Particle />
+      <Particle/>
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
@@ -27,7 +27,8 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Concurreny control and Recovery System"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="A distributed database, complete with multiversion concurrency control, deadlock detection, replication, and
+              failure recovery. "
               ghLink="https://github.com/shradhaiyer/Concurreny-control-and-recovery"
             />
           </Col>
@@ -37,11 +38,20 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Skin Disease Detection System"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="An android application that can be accessed anytime and anywhere for instant diagnosis and indicating the probability of skin abnormalities like rosacea, pigmentation, and acne."
               ghLink="https://github.com/shradhaiyer/CNN--Skin-disease-Classification"
             />
           </Col>
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="E-Commerce Application"
+              description="An end-to-end ecommerce site developed with MERN Stack"
+              ghLink="https://github.com/shradhaiyer/E-commerce-application/edit/main/Readme.md"
+            />
+          </Col>
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
@@ -50,17 +60,6 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Editor.io"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="E-Commerce Application"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-            />
-          </Col>
-       
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -69,7 +68,7 @@ function Projects() {
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/soumyajit4419/Editor.io"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
