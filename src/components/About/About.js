@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import shraddhaImg from "../../Assets/img.jpg";
+import shraddhaImg from "../../Assets/Shraddha.jpeg";
 import Toolstack from "./Toolstack";
 import { Element } from "react-scroll";
 import Image from 'react-bootstrap/Image'
@@ -27,7 +27,7 @@ function About() {
             style={{ paddingTop: "50px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <Avatar src={shraddhaImg}  sx={{ width: "80%", height: "80%" }}/>
+            <Avatar src={shraddhaImg}  sx={{ width: "100%", height: "100%" }}/>
           </Col>
           <Col
             md={7}
